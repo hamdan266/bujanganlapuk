@@ -1,75 +1,100 @@
-<h3>Selamat datang ( <?php echo $this->session->userdata('nama'); ?>)</h3>
+<section class="content">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3><?php echo $this->dasbor_model->total_produk()->total; ?><sup style="font-size: 20px"> Produk</sup></h3>
 
-<!-- <table id="example1" class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Rendering engine</th>
-            <th>Browser</th>
-            <th>Platform(s)</th>
-            <th>Engine version</th>
-            <th>CSS grade</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Trident</td>
-            <td>Internet
-                Explorer 4.0
-            </td>
-            <td>Win 95+</td>
-            <td> 4</td>
-            <td>X</td>
-        </tr>
-    </tbody>
-</table> -->
+                    <p>Data Produk</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-bag"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3><?php echo $this->dasbor_model->total_pelanggan()->total; ?><sup style="font-size: 20px"> Customer</sup></h3>
 
-<table class="table table-bordered">
-    <thead>
-        <tr class="bg-success">
-            <th>No.</th>
-            <th>Pelanggan</th>
-            <th>Kode</th>
-            <!-- <th>Tanggal</th> -->
-            <th>Jumlah Total</th>
-            <!-- <th>Jumlah Item</th> -->
-            <th>Status Pembayaran</th>
-            <!-- <th>Action</th> -->
-        </tr>
-    </thead>
-    <tbody>
-        <?php $i = 1;
-        foreach ($header_transaksi as $header_transaksi) { ?>
-            <tr>
-                <td><?php echo $i ?></td>
-                <td><?php echo $header_transaksi->nama_pelanggan ?><br>
-                    <small>
-                        Telepon: <?php echo $header_transaksi->telepon ?>
-                        <br>Email: <?php echo $header_transaksi->email ?>
-                        <br>Alamat kirim: <br> <?php echo nl2br($header_transaksi->alamat)  ?>
-                    </small>
-                </td>
-                <td><?php echo $header_transaksi->kode_transaksi ?></td>
-                <!-- <td><?php echo date('d-m-Y', strtotime($header_transaksi->tanggal_transaksi)) ?></td> -->
-                <td><?php echo number_format($header_transaksi->jumlah_transaksi) ?></td>
-                <!-- <td><?php echo $header_transaksi->total_item ?></td> -->
-                <td><?php echo $header_transaksi->status_bayar ?></td>
-                <!-- <td>
-                    <div class="btn-group">
-                        <a href="<?php echo base_url('admin/transaksi/detail/' . $header_transaksi->kode_transaksi) ?>" class="btn btn-success btn-sm"><i class="fa fa-eye"></i> Detail</a>
-                        <a href="<?php echo base_url('admin/transaksi/cetak/' . $header_transaksi->kode_transaksi) ?>" target="_blank" class="btn btn-info btn-sm"><i class="fa fa-print"></i> Print</a>
-                        <a href="<?php echo base_url('admin/transaksi/status/' . $header_transaksi->kode_transaksi) ?>" class="btn btn-warning btn-sm"><i class="fa fa-check"></i> Update Status</a>
-                    </div>
-                    <div class="clearfix"></div>
-                    <br>
-                    <div class="btn-group">
-                        <a href="<?php echo base_url('admin/transaksi/pdf/' . $header_transaksi->kode_transaksi) ?>" target="_blank" class="btn btn-success btn-sm"><i class="fa fa-file-pdf-o"></i> Unduh PDF</a>
-                        <a href="<?php echo base_url('admin/transaksi/kirim/' . $header_transaksi->kode_transaksi) ?>" target="_blank" class="btn btn-info btn-sm"><i class="fa fa-print"></i> Cetak Kirim</a>
-                        <a href="<?php echo base_url('admin/transaksi/word/' . $header_transaksi->kode_transaksi) ?>" class="btn btn-warning btn-sm"><i class="fa fa-file-word-o"></i> Export Word</a>
-                    </div>
+                    <p>Customer</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-stats-bars"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3><?php echo $this->dasbor_model->total_header_transaksi()->total; ?></h3>
 
-                </td> -->
-            </tr>
-        <?php $i++;
-        } ?>
-    </tbody>
-</table>
+                    <p>Transaksi</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-person-add"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3><sup style="font-size: 20px">Rp.</sup><?php echo number_format($this->dasbor_model->total_transaksi()->total) ?></h3>
+
+                    <p>Nilai Transaksi</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-6 col-xs-12">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3><sup style="font-size: 20px">Rp.</sup><?php echo number_format($this->dasbor_model->total_transaksi()->total) ?></h3>
+
+                    <p>Nilai Transaksi</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-6 col-xs-12">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3><sup style="font-size: 20px">Rp.</sup><?php echo number_format($this->dasbor_model->total_transaksi()->total) ?></h3>
+
+                    <p>Nilai Transaksi</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+    </div>
+    <!-- /.row -->
+    <!-- Main row -->
+
+
+</section>
+<!-- /.content -->
