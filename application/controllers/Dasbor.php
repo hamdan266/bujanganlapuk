@@ -221,7 +221,7 @@ class Dasbor extends CI_Controller
 
                     $data   = array(
                         'id_header_transaksi'         => $header_transaksi->id_header_transaksi,
-                        'status_bayar'                => 'konfirmasi',
+                        'status_bayar'                => 'selesai',
                         'jumlah_bayar'                => $i->post('jumlah_bayar'),
                         'rekening_pembayaran'         => $i->post('rekening_pembayaran'),
                         'rekening_pelanggan'          => $i->post('rekening_pelanggan'),

@@ -1,5 +1,5 @@
 <!-- Title Page -->
-<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(<?php echo base_url() ?>/assets/templatee/images/heading-pages-01.jpg);">
+<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(<?php echo base_url() ?>/assets/templatee/images/a/b1.png);">
     <h2 class="l-text2 t-center">
         <?php echo $title ?>
     </h2>
@@ -120,7 +120,7 @@
             <!-- <form class="leave-comment"> -->
 
             <h4 class="m-text26 p-b-36 p-t-15">
-                Send us your message
+                Detail data pelanggan
             </h4>
 
             <?php

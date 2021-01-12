@@ -4,18 +4,18 @@
         <div class="row">
             <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
                 <div class="hov-img-zoom pos-relative">
-                    <img src="<?php echo base_url() ?>assets/templatee/images/banner-08.jpg" alt="IMG-BANNER">
+                    <img src="<?php echo base_url() ?>assets/templatee/images/a/b2.png" alt="IMG-BANNER">
 
                     <div class="ab-t-l sizefull flex-col-c-m p-l-15 p-r-15">
                         <span class="m-text9 p-t-45 fs-20-sm">
-                            The Beauty
+                            <!-- The Beaut -->
                         </span>
 
                         <h3 class="l-text1 fs-35-sm">
-                            Lookbook
+                            <!-- Lookbook -->
                         </h3>
 
-                        <a href="#" class="s-text4 hov2 p-t-20 ">
+                        <a href="http://localhost/blp/produk/kategori/liquid" class="s-text4 hov2 p-t-20 ">
                             View Collection
                         </a>
                     </div>
@@ -24,7 +24,7 @@
 
             <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
                 <div class="bgwhite hov-img-zoom pos-relative p-b-20per-ssm">
-                    <img src="<?php echo base_url() ?>assets/templatee/images/shop-item-09.jpg" alt="IMG-BANNER">
+                    <img src="<?php echo base_url() ?>assets/templatee/images/a/b3.png" alt="IMG-BANNER">
 
                     <div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
                         <div class="t-center">
@@ -103,22 +103,22 @@
             <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="block3">
-                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
-                        <img src="<?php echo base_url() ?>assets/templatee/images/blog-01.jpg" alt="IMG-BLOG">
+                    <a href="#" class="block3-img dis-block hov-img-zoom">
+                        <img src="<?php echo base_url() ?>assets/templatee/images/a/h.png" alt="IMG-BLOG">
                     </a>
 
                     <div class="block3-txt p-t-14">
                         <h4 class="p-b-7">
-                            <a href="blog-detail.html" class="m-text11">
-                                Black Friday Guide: Best Sales & Discount Codes
+                            <a href="#" class="m-text11">
+                                Bahas Hexohm, Mengapa MOD Ini Bisa Berharga Sangat Mahal ?
                             </a>
                         </h4>
 
-                        <span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-                        <span class="s-text6">on</span> <span class="s-text7">July 22, 2017</span>
+                        <span class="s-text6">By</span> <span class="s-text7">Hamdhannnn</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 22, 2020</span>
 
                         <p class="s-text8 p-t-16">
-                            Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
+                            Vapers mana yang tidak kenal dengan nama besar HexOhm, menjadi salah satu mod dengan penjualan paling laris selama bertahun - tahun membuat nama besarnya begitu familiar di kalangan vapers.
                         </p>
                     </div>
                 </div>
@@ -127,22 +127,22 @@
             <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="block3">
-                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
-                        <img src="<?php echo base_url() ?>assets/templatee/images/blog-02.jpg" alt="IMG-BLOG">
+                    <a href="#" class="block3-img dis-block hov-img-zoom">
+                        <img src="<?php echo base_url() ?>assets/templatee/images/a/h2.png" alt="IMG-BLOG">
                     </a>
 
                     <div class="block3-txt p-t-14">
                         <h4 class="p-b-7">
-                            <a href="blog-detail.html" class="m-text11">
-                                The White Sneakers Nearly Every Fashion Girls Own
+                            <a href="#" class="m-text11">
+                                Liquid Terasa Hambar? Bisa Jadi Anda Kena Vape Tongue
                             </a>
                         </h4>
 
-                        <span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-                        <span class="s-text6">on</span> <span class="s-text7">July 18, 2017</span>
+                        <span class="s-text6">By</span> <span class="s-text7">Hamdhannn</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 18, 2020</span>
 
                         <p class="s-text8 p-t-16">
-                            Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            Vape Tongue adalah kondisi dimana lidah kehilangan kemampuan untuk membedakan rasa, kondisi ini umum terjadi hampir pada semua vapers dimanapun berada.
                         </p>
                     </div>
                 </div>
@@ -151,22 +151,22 @@
             <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
                 <!-- Block3 -->
                 <div class="block3">
-                    <a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
-                        <img src="<?php echo base_url() ?>assets/templatee/images/blog-03.jpg" alt="IMG-BLOG">
+                    <a href="#" class="block3-img dis-block hov-img-zoom">
+                        <img src="<?php echo base_url() ?>assets/templatee/images/a/h3.png" alt="IMG-BLOG">
                     </a>
 
                     <div class="block3-txt p-t-14">
                         <h4 class="p-b-7">
-                            <a href="blog-detail.html" class="m-text11">
-                                New York SS 2018 Street Style: Annina Mislin
+                            <a href="#" class="m-text11">
+                                5 Penyebab Flavor Liquid di Dalam Botol Tiba - Tiba Hilang
                             </a>
                         </h4>
 
-                        <span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-                        <span class="s-text6">on</span> <span class="s-text7">July 2, 2017</span>
+                        <span class="s-text6">By</span> <span class="s-text7">Hamdhann</span>
+                        <span class="s-text6">on</span> <span class="s-text7">July 2, 2020</span>
 
                         <p class="s-text8 p-t-16">
-                            Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            Mungkin masalah ini sudah sering dialami oleh sebagian besar vapers dimanapun berada, maksud hati berhemat tapi malah berakhir tamat.
                         </p>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
 
 
 <!-- Instagram -->
-<section class="instagram p-t-20">
+<!-- <section class="instagram p-t-20">
     <div class="sec-title p-b-52 p-l-15 p-r-15">
         <h3 class="m-text5 t-center">
             @ follow us on Instagram
@@ -186,7 +186,7 @@
     </div>
 
     <div class="flex-w">
-        <!-- Block4 -->
+    
         <div class="block4 wrap-pic-w">
             <img src="<?php echo base_url() ?>assets/templatee/images/gallery-03.jpg" alt="IMG-INSTAGRAM">
 
@@ -208,7 +208,6 @@
             </a>
         </div>
 
-        <!-- Block4 -->
         <div class="block4 wrap-pic-w">
             <img src="<?php echo base_url() ?>assets/templatee/images/gallery-07.jpg" alt="IMG-INSTAGRAM">
 
@@ -230,7 +229,7 @@
             </a>
         </div>
 
-        <!-- Block4 -->
+        
         <div class="block4 wrap-pic-w">
             <img src="<?php echo base_url() ?>assets/templatee/images/gallery-09.jpg" alt="IMG-INSTAGRAM">
 
@@ -252,7 +251,7 @@
             </a>
         </div>
 
-        <!-- Block4 -->
+        
         <div class="block4 wrap-pic-w">
             <img src="<?php echo base_url() ?>assets/templatee/images/gallery-13.jpg" alt="IMG-INSTAGRAM">
 
@@ -274,7 +273,7 @@
             </a>
         </div>
 
-        <!-- Block4 -->
+        
         <div class="block4 wrap-pic-w">
             <img src="<?php echo base_url() ?>assets/templatee/images/gallery-15.jpg" alt="IMG-INSTAGRAM">
 
@@ -296,7 +295,7 @@
             </a>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Shipping -->
 <section class="shipping bgwhite p-t-62 p-b-46">
