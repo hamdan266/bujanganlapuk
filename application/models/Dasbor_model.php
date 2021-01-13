@@ -46,4 +46,22 @@ class Dasbor_model extends CI_model
         $query = $this->db->get();
         return $query->row();
     }
+
+    // Total Berita
+    public function total_berita()
+    {
+        $this->db->select('COUNT(*) AS total');
+        $this->db->from('berita');
+        $query = $this->db->get();
+        return $query->row();
+    }
+
+    // Total Berita
+    public function total_rekening()
+    {
+        $this->db->select('COUNT(*) AS total');
+        $this->db->from('rekening');
+        $query = $this->db->get();
+        return $query->row();
+    }
 }
